@@ -1,0 +1,21 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    border: 1px solid red;
+}
+.menu
+{
+    margin: 24px 60px 0 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
