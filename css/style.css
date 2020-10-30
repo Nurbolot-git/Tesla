@@ -315,8 +315,107 @@ nav
     .go_bottom{
         margin-top: 34px;
     }
-
-
-
-
+}
+/* main */
+.main
+{
+    margin-top: 37px;
+    height: 900px;
+    color: #fff;
+}
+.main__inner{
+    background-image: url(../images/2013-tesla-model-s-cockpit.png);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.left-section h2
+{
+    margin-left: 80px;
+    font-size: 70px;
+    line-height: 85px;
+    color: #E51937;
+}
+.right-section
+{
+    width: 440px;
+    background-color:#E51937;
+    padding: 51px 50px 63px 52px;
+}
+.main-top h3
+{
+    font-weight: 600;
+    font-size: 30px;
+    line-height:37px;
+    margin: 0;
+}
+.main-top p
+{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+    margin-top: 11px;
+    margin-bottom: 80px;
+    padding-right: 20px;
+}
+.features
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-right: 125px;
+}
+.features-img
+{
+    align-self: center;
+    margin-right: 20px;
+}
+.features-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+.features-accent
+{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    margin-right: 10px;
+}
+.features-text
+{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+}
+.main-botton{
+    margin-top: 147px;
+    display: flex;
+}
+.information{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin-right: 27px; */
+}
+.information img 
+{
+    align-self: center;
+    margin-right: 10px;
+}
+.information a{
+    text-decoration: none;
+    color: #fff;
+}
+.inverse__button{
+    margin-top:revert;
+    color: #fff;
+    border-color: #fff;
 }
