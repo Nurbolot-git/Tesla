@@ -16,7 +16,6 @@ html {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 
 nav {
@@ -151,7 +150,6 @@ nav {
 }
 .main {
   margin-top: 37px;
-  height: 900px;
   color: #fff;
 }
 .main__inner {
@@ -159,12 +157,16 @@ nav {
   display: flex;
   justify-content: space-between;
   background-repeat: no-repeat;
+  background-size: c;
   width: 100%;
-  background-position: bottom;
 }
-.left-section h2 {
+.left-section {
   margin-left: 80px;
+}
+
+h2 {
   font-size: 70px;
+  min-width: 262px;
   line-height: 85px;
   color: #e51937;
 }
@@ -181,13 +183,13 @@ nav {
   margin-top: 20px;
   padding-right: 72px;
 }
-.main-top h3 {
+.title {
   font-weight: 600;
   font-size: 30px;
   line-height: 37px;
   margin: 0;
 }
-.main-top p {
+.text {
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
@@ -251,4 +253,27 @@ nav {
   padding: 5px 40px;
   color: #fff;
   border-color: #fff;
+}
+.benefits__info {
+  background-color: #e51937;
+  color: #fff;
+  padding-left: 52px;
+  padding-right: 68px;
+}
+.benefits__top {
+  max-width: 316px;
+}
+.benefits__center {
+  margin-top: 49px;
+}
+.benefits__center {
+  display: inline-block;
+}
+.benefits__center-list {
+  margin: 0;
+}
+.benefits-items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
