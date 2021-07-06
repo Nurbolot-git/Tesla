@@ -257,23 +257,54 @@ h2 {
 .benefits__info {
   background-color: #e51937;
   color: #fff;
-  padding-left: 52px;
-  padding-right: 68px;
+  width: 30%;
+  padding: 50px 40px 30px 52px;
 }
 .benefits__top {
   max-width: 316px;
+  margin-top: 12px;
 }
 .benefits__center {
   margin-top: 49px;
 }
-.benefits__center {
-  display: inline-block;
-}
 .benefits__center-list {
-  margin: 0;
+  padding: 0;
+  margin-top: 29px;
 }
 .benefits-items {
   padding: 0;
   margin: 0;
   list-style: none;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.benefits__items-text {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  padding-right: 69px;
+}
+.benefits__bottom {
+  /* width: 330px; */
+  display: flex;
+}
+.benefits__bottom-img {
+  width: 62px;
+  margin-right: 23px;
+}
+.benefits__bottom-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+.benefits__bottom-text {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+}
+.benefits__bottom-inner {
+  margin-top: 60px;
 }
