@@ -258,7 +258,10 @@ h2 {
   background-color: #e51937;
   color: #fff;
   width: 30%;
-  padding: 50px 40px 30px 52px;
+  padding: 50px 40px 3px 52px;
+}
+.benefits__wrapper {
+  display: flex;
 }
 .benefits__top {
   max-width: 316px;
@@ -286,8 +289,9 @@ h2 {
   padding-right: 69px;
 }
 .benefits__bottom {
-  /* width: 330px; */
   display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 .benefits__bottom-img {
   width: 62px;
@@ -307,4 +311,13 @@ h2 {
 }
 .benefits__bottom-inner {
   margin-top: 60px;
+}
+/* benefits__vector-img */
+.benefits__vector {
+  margin-top: 300px;
+}
+.benefits__vector-img {
+  position: relative;
+  top: 30px;
+  left: -100px;
 }
