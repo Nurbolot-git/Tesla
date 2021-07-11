@@ -238,7 +238,7 @@ h2 {
   line-height: 16px;
   text-align: center;
   text-transform: uppercase;
-  margin-right: 27px;
+  margin-right: 15px;
 }
 .information img {
   align-self: center;
@@ -257,14 +257,14 @@ h2 {
 .benefits__info {
   background-color: #e51937;
   color: #fff;
-  width: 30%;
-  padding: 50px 40px 3px 52px;
+  /* width: 30%; */
+  padding: 50px 26px 3px 52px;
 }
 .benefits__wrapper {
   display: flex;
 }
 .benefits__top {
-  max-width: 316px;
+  width: 316px;
   margin-top: 12px;
 }
 .benefits__center {
@@ -287,6 +287,7 @@ h2 {
   font-size: 17px;
   line-height: 21px;
   padding-right: 69px;
+  margin: 8px 0;
 }
 .benefits__bottom {
   display: flex;
@@ -312,12 +313,75 @@ h2 {
 .benefits__bottom-inner {
   margin-top: 60px;
 }
-/* benefits__vector-img */
-.benefits__vector {
-  margin-top: 300px;
+.benefits__vector__img-text {
+  position: relative;
+  top: 104px;
+  left: 244px;
 }
 .benefits__vector-img {
   position: relative;
   top: 30px;
   left: -100px;
+  width: 935px;
+}
+.benefits__vector::before {
+  content: url("../images/ModelS.png");
+  position: relative;
+  left: 150px;
+  bottom: -104px;
+}
+.benefits__vector {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 15px;
+}
+.vector1 {
+  position: absolute;
+  left: 268px;
+  height: 281px;
+  z-index: 9;
+}
+.vector1::before {
+  position: relative;
+  content: "Защита от удара спереди";
+  left: 287px;
+  width: 118px;
+  display: inline-block;
+}
+.vector2 {
+  position: absolute;
+  left: 393px;
+  z-index: 9;
+  height: 132px;
+  width: 11px;
+}
+.vector2 img {
+  position: relative;
+  top: -28px;
+}
+.vector2::after {
+  content: "Защита от удара сбоку";
+  position: relative;
+  display: inline-block;
+  left: 404px;
+  top: -162px;
+  width: 150px;
+}
+.vector3 {
+  position: absolute;
+  z-index: 9;
+}
+.vector3 img {
+  position: relative;
+  left: 432px;
+  bottom: 129px;
+}
+.vector3::after {
+  content: "Минимальный риск перевернуться в аварии";
+  position: relative;
+  display: inline-block;
+  left: 435px;
+  bottom: 133px;
+  width: 233px;
 }
